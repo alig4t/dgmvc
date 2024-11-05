@@ -1,0 +1,357 @@
+#cart-content{
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #ebeced;
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+}
+
+
+
+#cart-content h2{
+    color: #555555;
+    direction: rtl;
+    font-size: 16px;
+    line-height: 36px;
+    padding-bottom: 0 !important;
+    padding-top: 15px;
+    padding-right: 20px;
+    display: block;
+    font-weight: normal;
+    position: relative;
+    margin: 0;
+}
+
+#cart-content h2::before{
+    content: "";
+    width: 5px;
+    height:10px;
+    display: block;
+    background: url(images/slices.png) no-repeat -36px -652px;
+    position: absolute;
+    right: 4px;
+    top: 30px;
+}
+
+
+#cart-content span.cart-des{
+    float: right;
+    padding-top: 10px;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+
+span.button-green{
+background: #4caf50;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: normal;
+    overflow: hidden;
+    cursor: pointer;
+box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+}
+span.button-green a{
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+}
+span.button-green a::after{
+    content: "";
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: url(images/slices.png) no-repeat -32px -561px;
+    margin-right: 9px;
+}
+
+span.button-gray{
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: normal;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    background-color: #969ba8;
+}
+span.button-gray a{
+    color: #fff;
+}
+
+#cart-content .button-green{
+    float: left;
+}
+
+.basket-tbl{
+    width: 100%;
+    margin-top: 40px;
+    float: right;
+    border: 1px solid #f0f1f2;
+    font-size: 13px;
+    color: #666;
+    border-collapse: collapse;
+}
+
+.basket-tbl thead{
+    background: #f7f9fa;
+}
+.basket-tbl thead td{
+    border-left: 1px solid #f0f1f2;
+text-align: center;
+    padding: 14px 5px;
+}
+.basket-tbl tbody td{
+    text-align: center;
+    border-left: 1px solid #ecedee;
+}
+.basket-tbl tbody tr{
+    border-bottom:1px solid #ecedee; ;
+}
+
+.basket-tbl .basket-pr-img{
+    width: 155px;
+    padding: 20px 0;
+    text-align: center;
+float: right;
+    cursor: pointer;
+}
+
+.basket-tbl .basket-pr-title{
+    float: right;
+    padding: 18px 0;
+}
+
+
+.basket-tbl .basket-pr-title h3{
+    font-size: 13px;
+    font-weight: normal;
+}
+.basket-tbl .basket-pr-title h3 a{
+    color: #424242;
+}
+
+.basket-tbl .basket-pr-title h3 a:hover{
+    color: #ff5252;
+}
+
+.color-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 1px solid rgba(0,0,0,.1);
+    vertical-align: -4px;
+    margin: 0 5px;
+}
+
+
+.basket-tbl .basket-pr-title p span{
+color: #777;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.garanty-box {
+    width: 100%;
+    float: right;
+
+}
+
+.garanty-box .garanty-wrapper {
+    width: 65px;
+    height: 34px;
+    position: relative;
+    border-radius: 2px;
+    background-color: #fdfeff;
+    border: 1px solid #dfe5e8;
+margin: auto;
+    cursor: pointer;
+}
+
+
+.garanty-box .garanty-wrapper span {
+
+    height: 34px;
+    line-height: 36px;
+    color: #797979;
+    font-size: 14px;
+    margin-right: 16px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.garanty-box .garanty-wrapper i {
+    background: url("images/slices.png") no-repeat scroll -33px -464px;
+    display: block;
+    height: 16px;
+    outline: none;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 16px;
+
+}
+
+.garanty-box .garanty-wrapper ul {
+    background: #FFFFFF;
+    width: 100%;
+    position: absolute;
+    left: -1px;
+    border: 1px solid #dfe5e8;
+    border-radius: 2px;
+
+    z-index: 3;
+    top: 34px;
+    display: none;
+}
+
+.garanty-box .garanty-wrapper ul li {
+    color: #4d4d4d;
+    line-height: 28px;
+
+    padding:3px 16px;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.garanty-box .garanty-wrapper ul li:hover {
+    background: #f5f6f8;
+    color: #4d4d4d;
+}
+
+.cartprice{
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.carttuman{
+    margin-right: 9px;
+    font-size: 9px;
+}
+
+
+.basket-tbl .cancell-pr{
+
+    background: #ffedee;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.basket-tbl .cancell-pr i{
+    background: url(images/slices.png) no-repeat -813px -510px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.gheymat-kolli-box{
+    float: right;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 0;
+
+}
+.gheymat-kolli-box .kolli-table{
+    width: 50%;
+    float: left;
+}
+.gheymat-kolli-box .kolli-table table{
+    border: 1px solid #c0f0c1;
+    color: #505050;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+.gheymat-kolli-box .kolli-table table td{
+    padding: 15px 0;
+    font-size: 13px;
+}
+.gheymat-kolli-box .kolli-table table td:last-child{
+    text-align: left;
+    padding-left: 35px;
+}
+.gheymat-kolli-box .kolli-table table tr td{
+    border-bottom:1px solid #c0f0c1;
+}
+
+.gheymat-kolli-box .kolli-table table tr:last-child{
+    background: #deffdf;
+    color: #4caf50 !important;
+}
+
+.backnextbox{
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding: 15px 0;
+}
+
+
+
+
+.box-takhfif {
+    float: right;
+    background: #ff5252;
+    border-radius: 2px 0 0 2px;
+    margin-right: 30px;
+}
+
+.box-takhfif span {
+    float: right;
+    font-size: 10px;
+    color: #FFF;
+    padding: 3px 8px;
+    text-align: center;
+}
+
+.box-takhfif span.right {
+    background: #ff7272;
+    position: relative;
+}
+
+.box-takhfif span.right::before {
+    content: " ";
+    position: absolute;
+    right: 0;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 4px 4px 4px 0;
+    border-color: transparent #ffffff transparent transparent;
+
+}
+
+.backnextbox .gotxt{
+    color: #ff5252;
+    font-size: 12px;
+    float: left;
+    line-height: 37px;
+    margin-left: 22px;
+}
+
+
+
+
+
+
+
+
+

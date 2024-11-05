@@ -1,0 +1,441 @@
+@media all and (max-width:1210px) and (min-width:992px){
+    #header {
+        width: 992px !important;
+    }
+    #menu-top {
+        width: 992px !important;
+    }
+    #main {
+        width: 992px !important;
+        margin: 10px auto !important;
+    }
+    #sidebar-right{
+        width: 241px;
+    }
+    #digi-tv-ul li a::before{
+        height: 137px !important;
+    }
+
+    #sidebar-right .newsbox li .news-right{
+        width: 80px !important;
+    }
+    #sidebar-right .newsbox li .news-left{
+        width: 156px !important;
+    }
+    #content{
+        width: 742px !important;
+    }
+    #main-slider{
+        height: 259px !important;
+    }
+    #sec-slider .sec-slider-content-box{
+        width: 586px !important;
+    }
+
+    .sec-slider-nav{
+        width: 155px !important;
+    }
+    #sec-slider .sec-slider-nav ul li{
+     font-size: 12px;
+        line-height: 37px !important;
+    }
+    .sec-slider-content .description{
+        width: 285px !important;
+    }
+
+    .sec-slider-content .slideimg{
+        width: 300px !important;
+    }
+    .sec-slider-content .description .price{
+        width: 400px !important;
+    }
+    .category-box .category-item-290-190{
+        width: 241px !important;
+    }
+    .category-box .category-item-590-190{
+        width: 492px !important;
+    }
+
+    .scroll-slider-box .scroll-slider-content{
+        width: 642px !important;
+    }
+    .scroll-slider-box .scroll-slider-content ul li{
+        width: 183px !important;
+    }
+
+    .featured-box .featured-section span {
+
+        margin-right: 7px !important;
+    }
+
+    .featured-box .featured-section:first-child{
+        width: 19% !important;
+    }
+
+    .featured-box .featured-section:last-child{
+        width: 21% !important;
+    }
+    #tel-box #tel-box-wrapper{
+        width: 992px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper{
+        width: 992px !important;
+    }
+    .fm-bigcol .khabar-input{
+        width: 418px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-col{
+        width: 22% !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-bigcol{
+        width: 56% !important;
+    }
+
+    .fm-bigcol .dg-social ul{
+        padding-left: 6px !important;
+    }
+
+    .fm-bigcol .dg-social ul li{
+        margin-right: 9px !important;
+    }
+
+}
+
+@media all and (max-width:991px) and (min-width:768px){
+
+    #header {
+        width: 768px !important;
+    }
+    #menu-top {
+        width: 768px !important;
+    }
+
+    #main{
+        width: 768px !important;
+    }
+
+    #sidebar-right{
+        display: none;
+    }
+
+    .banner-top{
+        display: none;
+    }
+    #header-right{
+        width: 555px;
+    }
+    #serch-box{
+        width: 380px;
+    }
+    #serch-box input{
+        width: 300px;
+    }
+    #header-right-bottom .basket{
+        width: 170px !important;
+    }
+
+    .basket .basket-left{
+        padding: 0 15px !important;
+    }
+
+    .submenu3{
+        height: 250px !important;
+    }
+
+
+    #content {
+        width: 100%;
+    }
+
+
+    #main-slider{
+        height: 269px !important;
+    }
+
+
+
+
+    #sec-slider .sec-slider-content-box{
+        width: 607px !important;
+    }
+
+    .sec-slider-nav{
+        width: 160px !important;
+    }
+    #sec-slider .sec-slider-nav ul li{
+        font-size: 12px;
+        line-height: 37px !important;
+    }
+    .sec-slider-content .description{
+        width: 285px !important;
+    }
+
+    .sec-slider-content .slideimg{
+        width: 300px !important;
+    }
+
+
+
+
+    .category-box .category-item-290-190{
+        width: 250px !important;
+    }
+    .category-box .category-item-590-190{
+        width: 509px !important;
+    }
+
+
+    .featured-box .featured-section span {
+
+        margin-right: 7px !important;
+    }
+    .featured-box .featured-section:first-child{
+        width: 19% !important;
+    }
+
+    .featured-box .featured-section:last-child{
+        width: 21% !important;
+    }
+
+
+    .scroll-slider-box .scroll-slider-content{
+        width: 668px !important;
+    }
+    .scroll-slider-box .scroll-slider-content ul li{
+        width: 192px !important;
+    }
+
+
+    #tel-box #tel-box-wrapper{
+        width: 768px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper{
+        width: 768px !important;
+    }
+    .fm-bigcol .khabar-input{
+        width: 297px !important;
+    }
+    .fm-bigcol .dg-butoon{
+        padding: 0 15px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-col{
+        width: 23% !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-bigcol{
+        width: 54% !important;
+    }
+
+    .fm-bigcol .dg-social ul{
+        padding-left: 48px !important;
+    }
+    .fm-bigcol .dg-social{
+        margin-top: 25px;
+    }
+    .fm-bigcol .dg-social ul li{
+        margin-right: 12px !important;
+    }
+    footer #footer-menu-box{
+        height: 230px;
+    }
+
+    #tel-box #tel-box-wrapper > span{
+        font-size: 12px;
+        margin: 12px 0;
+    }
+
+    #tel-box #tel-box-wrapper ul li{
+        margin-right: 20px;
+    }
+    #tel-box #tel-box-wrapper ul li span{
+        font-size: 12px;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-col ul li:first-child{
+        font-size: 14px;
+    }
+
+    .fm-bigcol .dg-social ul li i.dg-telegram{
+        margin-left: 40px;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width:767px) and (min-width:480px){
+
+
+
+    #header {
+        width: 768px !important;
+    }
+    #menu-top {
+        width: 768px !important;
+    }
+
+    #main{
+        width: 768px !important;
+    }
+
+    #sidebar-right{
+        display: none;
+    }
+
+    .banner-top{
+        display: none;
+    }
+    #header-right{
+        width: 555px;
+    }
+    #serch-box{
+        width: 380px;
+    }
+    #serch-box input{
+        width: 300px;
+    }
+    #header-right-bottom .basket{
+        width: 170px !important;
+    }
+
+    .basket .basket-left{
+        padding: 0 15px !important;
+    }
+
+    .submenu3{
+        height: 250px !important;
+    }
+
+
+    #content {
+        width: 100%;
+    }
+
+
+    #main-slider{
+        height: 269px !important;
+    }
+
+
+
+
+    #sec-slider .sec-slider-content-box{
+        width: 607px !important;
+    }
+
+    .sec-slider-nav{
+        width: 160px !important;
+    }
+    #sec-slider .sec-slider-nav ul li{
+        font-size: 12px;
+        line-height: 37px !important;
+    }
+    .sec-slider-content .description{
+        width: 285px !important;
+    }
+
+    .sec-slider-content .slideimg{
+        width: 300px !important;
+    }
+
+
+
+
+    .category-box .category-item-290-190{
+        width: 250px !important;
+    }
+    .category-box .category-item-590-190{
+        width: 509px !important;
+    }
+
+
+    .featured-box .featured-section span {
+
+        margin-right: 7px !important;
+    }
+    .featured-box .featured-section:first-child{
+        width: 19% !important;
+    }
+
+    .featured-box .featured-section:last-child{
+        width: 21% !important;
+    }
+
+
+    .scroll-slider-box .scroll-slider-content{
+        width: 668px !important;
+    }
+    .scroll-slider-box .scroll-slider-content ul li{
+        width: 192px !important;
+    }
+
+
+    #tel-box #tel-box-wrapper{
+        width: 768px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper{
+        width: 768px !important;
+    }
+    .fm-bigcol .khabar-input{
+        width: 297px !important;
+    }
+    .fm-bigcol .dg-butoon{
+        padding: 0 15px !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-col{
+        width: 23% !important;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-bigcol{
+        width: 54% !important;
+    }
+
+    .fm-bigcol .dg-social ul{
+        padding-left: 48px !important;
+    }
+    .fm-bigcol .dg-social{
+        margin-top: 25px;
+    }
+    .fm-bigcol .dg-social ul li{
+        margin-right: 12px !important;
+    }
+    footer #footer-menu-box{
+        height: 230px;
+    }
+
+    #tel-box #tel-box-wrapper > span{
+        font-size: 12px;
+        margin: 12px 0;
+    }
+
+    #tel-box #tel-box-wrapper ul li{
+        margin-right: 20px;
+    }
+    #tel-box #tel-box-wrapper ul li span{
+        font-size: 12px;
+    }
+    #footer-menu-box #footer-menu-wrapper .fm-col ul li:first-child{
+        font-size: 14px;
+    }
+
+    .fm-bigcol .dg-social ul li i.dg-telegram{
+        margin-left: 40px;
+    }
+
+
+
+
+}
+
+
+
+@media all and (max-width:479px){
+
+}
+
+
+
+
+
+
+
+

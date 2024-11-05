@@ -1,0 +1,533 @@
+body{
+    color: #3c3c3c;
+}
+
+.dgstepbox{
+    width: 100%;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+}
+
+
+
+.dgstepbox #steporder {
+    height: 80px;
+    margin: auto;
+    padding-top: 35px;
+    position: relative;
+    width: 870px;
+}
+
+.dgstepbox #steporder .pfdash {
+    margin: 1px 7px 0;
+    float: right;
+}
+
+.dgstepbox #steporder .pfdash span {
+    display: block;
+    background: #bec2cc;
+    float: right;
+    height: 2px;
+    margin: 2px 3px;
+    width: 11px;
+}
+.dgstepbox #steporder .pfdash.approved span {
+    background: #62b965;
+}
+
+
+
+.dgstepbox #steporder ul {
+    float: right;
+    margin-top: 2px;
+}
+
+.dgstepbox #steporder ul li {
+    background: #dee1e7;
+    float: right;
+    height: 2px;
+    width: 335px;
+    position: relative;
+}
+
+.dgstepbox #steporder ul li.approved {
+    background: #62b965;
+}
+
+.dgstepbox #steporder ul li.approved .pficon {
+    border-color: #62b965;
+}
+
+.dgstepbox #steporder ul li:last-child {
+    width: 25px;
+}
+
+.dgstepbox #steporder ul li .pficon {
+    position: relative;
+    top: -10px;
+    background: #fafafa;
+    border: 3px solid #bec2cc;
+    border-radius: 100%;
+    display: block;
+    height: 18px;
+    width: 18px;
+}
+
+.dgstepbox #steporder ul li .pficon::after {
+    width: 10px;
+    display: block;
+    content: "";
+    position: absolute;
+    left: -13px;
+    background: #fff;
+    height: 20px;
+}
+
+.dgstepbox #steporder ul li .pficon::before {
+    width: 10px;
+    display: block;
+    content: "";
+    position: absolute;
+    right: -13px;
+    background: #fff;
+    height: 20px;
+}
+
+.dgstepbox #steporder ul li .pftxt {
+    display: block;
+    position: absolute;
+    right: -57px;
+    text-align: center;
+    top: 30px;
+    width: 144px;
+    font: normal 14px yekan;
+    color: #818897;
+}
+
+.dgstepbox #steporder ul li.approved .pftxt {
+    color: #4caf50;
+}
+
+#content-loginreg{
+    width: 100%;
+    float: right;
+    padding: 20px 20px 100px;
+    box-sizing: border-box;
+    background: #fff;
+
+}
+
+
+
+#login-box{
+    width: 45%;
+    float: right;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #fff;
+    border-left: 1px solid #f0f0f0;
+}
+
+#regi-box{
+    width: 55%;
+    padding:20px;
+    box-sizing: border-box;
+    float: right;
+    background: #fff;
+}
+
+.img-log{
+    width: 50px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.log-ic{
+    background: url(images/slices.png) no-repeat -795px -20px;
+}
+
+.log-rg{
+    background: url(images/slices.png) no-repeat -795px -90px;
+}
+
+#content-loginreg .soal{
+    float: right;
+    width: 100%;
+    font-size: 16px;
+    color: #373737;
+    line-height: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+}
+
+
+#content-loginreg p{
+    float: right;
+    width: 100%;
+    font-size: 12px;
+    color: #838383;
+    text-align: center;
+    font-weight: 100;
+    margin: 0;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+.title-cart{
+    font-weight: normal;
+    font-size: 16px;
+    width: 100%;
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 10px;
+color: #3e3e3e;
+
+}
+
+.title-cart::before{
+    width: 7px;
+    height: 10px;
+    display: block;
+    float: right;
+    content: "";
+    background: url(images/slices.png) no-repeat -36px -652px;
+    margin-left: 10px;
+    margin-top:7px;
+}
+
+.address-box{
+    width: 495px;
+    height: auto;
+    float: right;
+    margin-left: 10px;
+    background: #fff;
+    border: 1px solid #f0f1f2;
+    border-collapse: collapse;
+    color: #424242;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+.address-box.active{
+    border: 1px solid #c0f0c1;
+
+}
+
+
+.address-box .adhead{
+    padding: 15px;
+    background: #fbfdfc;
+    font-size: 15px;
+    min-height: 23px;
+}
+
+.address-box .adhead .edit{
+
+    float: left;
+    margin-left: 35px;
+    margin-top: 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(images/slices.png) no-repeat -812px -446px;
+    cursor: pointer;
+}
+.address-box .adhead .delet{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    background: url(images/slices.png) no-repeat -812px -508px;
+}
+
+
+.address-box .adshahr{
+    width: 100%;
+    float: right;
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+    box-sizing: border-box;
+}
+.address-box .adshahr span{
+width: 33%;
+    display: block;
+    float: right;
+    font-size: 13px;
+    overflow: hidden;
+
+}
+.address-box .adneshani{
+width: 100%;
+    float: right;
+    font-size: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f0f0f0;
+}
+.address-box .adneshani span.addtilte{
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.address-box .adneshani span.savemap{
+    color: #7c6a26;
+    background: #fffcda;
+    padding: 7px 15px;
+    margin-top: 15px;
+    float: right;
+}
+.address-box .adtel{
+    width: 100%;
+    float: right;
+    font-size: 13px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.address-box .adtel span{
+width: 50%;
+    display: block;
+    float: right;
+}
+.address-box .adselect{
+font-size: 12px;
+    width: 100%;
+    float: right;
+    text-align: center;
+    padding: 20px;
+    background: #fbfdfc;
+    border-top: 1px solid #c0f0c1;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.address-box .adselect span{
+    width: 148px;
+    margin: auto;
+    display: block;
+}
+
+.address-box .adselect span i{
+    width: 14px;
+    height: 14px;
+    display: block;
+    background: #fff;
+    border: 1px solid #c5c5c5;
+    float: right;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-top: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.address-box.active .adselect span i{
+    background: #2196f3;
+    border: 1px solid transparent;
+
+}
+
+.address-box.active .adselect span i::before{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 4px;
+    border-radius: 100%;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 5px;
+}
+
+
+span.button-gray {
+    color: #fff;
+    padding: 5px 16px;
+    margin-right: 30px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: normal;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.15);
+    background-color: #999;
+}
+
+
+
+
+
+#add-address-box{
+    width:700px ;
+    height:90% ;
+    background: #fff;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 24;
+    display: none;
+    overflow: auto;
+}
+
+#add-address-box > h4{
+    height: 45px;
+    background: #f0f1f2;
+    margin: 0;
+    font-size: 14px;
+    color: #2c2b2b;
+    line-height: 47px;
+    font-weight: normal;
+    padding-right: 16px;
+}
+#add-address-box > i{
+
+    background: url("images/slices.png") no-repeat -134px -123px #ebeced;
+    border-radius: 100%;
+    border: 1px solid #d6d9df;
+    height: 28px;
+    width: 28px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+
+
+#bg-dark-pd{
+
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 22;
+    background: rgba(0,0,0,.25);
+display: none;
+}
+
+
+
+.address-wrapper{
+width: 100%;
+    height: 360px;
+    float: right;
+}
+
+
+#add-address-box .adrow{
+    width: 100%;
+    float: right;
+    padding: 14px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+#add-address-box .adrow .adtitle{
+    float: right;
+    width: 230px;
+    line-height: 26px;
+}
+
+#add-address-box .adrow .adjavab{
+    float: right;
+}
+
+#add-address-box .adrow .adjavab input{
+height: 26px;
+width: 215px;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+}
+
+#add-address-box .adrow .adjavab select{
+    font-family:'dg-yekan';
+font-weight: normal;
+    padding: 5px;
+    border:1px solid rgba(0,0,0,0.14);
+    margin: 0 5px;
+
+}
+#add-address-box .adrow .adjavab select option{
+    font-family:'dg-yekan';
+}
+
+
+.dgstepbox h4{
+font-weight: normal;
+}
+
+.dgstepbox table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #c0f0c1 !important;
+}
+
+
+.dgstepbox table td {
+    border: 1px solid #f0f1f2;
+    padding:13px 8px;
+    text-align: center;
+cursor: pointer;
+}
+.dgstepbox table td.active{
+    background-color: rgba(216, 239, 219, 0.31);
+}
+.dgstepbox table td i{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dbdbdb;
+    background: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: 4px;
+}
+.dgstepbox table td.active i{
+    background-color: #3ca3f4;
+    border-color:#3ca3f4 ;
+}
+.dgstepbox table td.active i::before{
+    content: "";
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    top:5px;
+    right: 5px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.dgstepbox table td:first-child  {
+    border-right:1px solid #c0f0c1 !important;
+}
+.dgstepbox table td:last-child  {
+    border-left:1px solid #c0f0c1 !important;
+}
+.dgstepbox table tr:last-child td {
+    border-bottom:1px solid #c0f0c1 !important;
+}
+.dgstepbox table tr:first-child td {
+    border-top:1px solid #c0f0c1 !important;
+}
+
+
+
+
+
+

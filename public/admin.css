@@ -1,0 +1,300 @@
+
+div, span, a, li, ul, p {
+    text-align: right;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0
+}
+
+/*WebYekanFont*/
+@font-face {
+    font-family: 'yekan';
+    src: url('fonts/Yekan.eot?#') format('eot'), /* IE6–8 */ url('fonts/Yekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/Yekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/*WebYekanNumberFont*/
+@font-face {
+    font-family: 'nyekan';
+    src: url('fonts/yekannumbers-regular.eot?#') format('eot'), /* IE6–8 */ url('fonts/yekannumbers-regular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/yekannumbers-regular.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+/*dg yekan */
+
+@font-face {
+    font-family: 'dg-yekan';
+    src: url(font/web_Yekan.woff);
+    src: url(font/web_Yekan.eot?#iefix) format("embedded-opentype"), url(font/web_Yekan.woff) format("woff"), url(font/web_Yekan.ttf) format("truetype"), url(font/web_Yekan.svg#BYekan) format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'dg-yekan';
+    background: #fff;
+    font-size: 13px;
+}
+
+nav {
+    background: #fa4652;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.main {
+    width: 100%;
+    height: 500px;
+    background: #fafafa;
+    margin: auto;
+}
+
+.main .sidebar {
+    width: 22%;
+    height: 500px;
+    background: #37454f;
+    float: right;
+    color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.main .sidebar > ul > li {
+
+    display: block;
+    color: #fff;
+
+    text-align: center;
+    background: #3c827d;
+    border-radius: 5px;
+    margin-bottom: 9px;
+    transition: all 0.3s ease;
+}
+
+.main .sidebar > ul > li > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main .sidebar > ul > li:hover {
+    background: #fa4652;
+
+}
+
+.main .sidebar > ul > li > ul {
+    display: none;
+}
+
+.main .wrapper {
+    width: 78%;
+    height: auto;
+    background: #ffffff;
+    float: left;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main .wrapper .content {
+    background: #e3e3e3;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    float: right;
+    padding-bottom: 50px;
+}
+
+/*
+
+.content table{
+    width: 100%;
+}
+.content table td{
+    padding: 15px;
+
+
+}
+.content table thead tr{
+    background-color: #374a52;
+    color: #fff;
+}
+.content table thead th{
+    padding: 15px;
+
+}
+.content table tbody tr:nth-child(odd){
+    background-color: #d1ecce;
+}
+.content table tbody tr:nth-child(even){
+    background-color: #fafafa;
+}
+*/
+
+.table-data {
+    width: 90%;
+    border: 1px solid rgba(43, 43, 43, 1);
+    border-collapse: collapse;
+    margin: 50px auto 10px;
+}
+
+.table-data tr th {
+    border: 1px solid rgba(43, 43, 43, 0.2);
+    text-align: center;
+    padding: 15px 10px;
+    border-collapse: collapse;
+    background: #3aadd9;
+    color: rgba(248, 248, 248, 1.00);
+}
+
+.table-data tr td {
+    border: 1px solid rgba(43, 43, 43, 0.2);
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.table-data tr:nth-child(odd) {
+    background-color: rgba(233, 233, 233, 0.7);
+}
+
+.icontable {
+    color: #e74c3c;
+}
+
+.icontable:hover {
+    color: #726564;
+}
+
+.add-cat {
+
+    cursor: pointer;
+    background: #3DB468;
+    padding: 8px 12px;
+    color: #FFF;
+    margin: 10px 2px 50px 10px;
+    font-weight: bold;
+
+    border: 1px solid rgba(241, 241, 241, 0.36);
+    transition: all ease-in 0.1s;
+    float: right;
+    font-size: 12px;
+}
+
+.del-cat {
+
+    cursor: pointer;
+    background: #ff4330;
+    padding: 8px 12px;
+    color: #FFF;
+    margin: 10px 2px 30px 10px;
+    border: 1px solid rgba(241, 241, 241, 0.36);
+    transition: all ease-in 0.1s;
+    float: left;
+    font-size: 12px;
+}
+
+.inputrow {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.inputrow label {
+    width: 110px;
+    display: inline-block;
+}
+
+.inputrow label::after {
+    content: ":";
+    margin-right: 5px;
+}
+
+.inputrow input[type=text] {
+    height: 25px;
+    width: 350px;
+    border: 1px solid #fdfdfd;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.24);
+    font-size: 16px;
+    font-family: 'dg-yekan';
+    padding: 5px;
+    color: #0d1e40;
+}
+
+.inputrow select {
+    padding: 5px;
+    font-family: 'dg-yekan';
+}
+
+.inputrow textarea {
+    padding: 5px;
+    font-size: 13px;
+    font-family: 'dg-yekan';
+}
+.colorbox{
+    margin: 10px;
+    padding: 10px;
+}
+span.addcolor {
+    display: inline-block;
+    background-color: #cccfd1;
+    border-radius: 5px;
+    padding: 4px 25px;
+    margin-right: 10px;
+    position: relative;
+}
+
+span.addcolor img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.addtitle {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.addbtn {
+    background: #62b965;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+/*
+
+.table-data tr.zirdaste1{
+    display: none;
+}
+.table-data tr.zirdaste2{
+    display: none;
+}
+.table-data tr.zirdaste3{
+    display: none;
+}
+*/
+
